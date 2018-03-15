@@ -1,0 +1,46 @@
+{
+  "name": "vusion.github.io",
+  "description": "Vusion Websites",
+  "author": "Rainfore <rainforest92@126.com>",
+  "main": "./index.js",
+  "scripts": {
+    "precommit": "bash node_modules/vusion-hooks/pre-commit"
+  },
+  "repository": "vusion/vusion.github.io",
+  "homepage": "http://vusion.github.io",
+  "bugs": {
+    "url": "http://github.com/vusion/vusion.github.io/issues"
+  },
+  "license": "MIT",
+  "keywords": [
+    "vusion",
+    "framework",
+    "vue",
+    "solution"
+  ],
+  "tags": [
+    "vusion",
+    "framework",
+    "vue",
+    "solution"
+  ],
+  "dependencies": {
+    "proto-ui.vusion": "~0.2.1",
+    "vue": "^2.5.0",
+    "vue-router": "^3.0.0",
+    "vusion-utils": "^0.1.2"
+  },
+  "devDependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "eslint": "^4.13.1",
+    "eslint-config-vusion": "^2.0.3",
+    "highlight.js": "^9.12.0",
+    "husky": "^0.13.3",
+    "markdown-it-for-inline": "^0.1.1",
+    "shelljs": "^0.7.8",
+    "vue-markdown-html-loader": "^0.0.3",
+    "vusion-hooks": "^0.1.0"
+  }
+}
